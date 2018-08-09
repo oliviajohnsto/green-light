@@ -1,0 +1,189 @@
+body {
+    /*background-color: #414141;*/
+    font-family: helvetica;
+    padding-top: 50px;
+}
+
+
+/* Basic page structure formatting */
+
+div.section-cont {
+    height: 500px;
+    /*width: 60%;*/
+    display: flex;
+    margin: 0px 0px -100px 0px;
+    padding: 0px 30px 30px 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.right-section {
+    float: right;
+}
+
+div.left-section {
+    float: left;
+}
+
+.row {
+    margin: 0px;
+}
+
+.color1 {
+    background-color: #e24d42;
+}
+
+.color2 {
+    background-color: #056571;
+    height: 400px !important;
+}
+
+.color3 {
+    background-color: #eb6e80;
+    /*height: 400px !important;*/
+}
+
+.color4 {
+    background-color: #b5bb13;
+}
+
+.bckgr1 {
+    background-image: url("img/pic5.jpg");
+    background-size: cover;
+}
+
+.subheader {
+    text-align: right;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+/* Header */
+
+.intro {
+    color: #fff;
+    font-weight: 700;
+    font-size: 90px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro-capt {
+    color: #fdc;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.exp-subhead {
+    color: #eeb;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.emphasis {
+    color: #fff;
+}
+
+/* Navbar */
+
+.navbar-header {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    justify-content: center !important;
+}
+
+.nav-link {
+    color: #777;
+    font-size: 18px;
+    margin: 0px 30px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.exp-cont  {
+    height: 450px;
+    background-color: #000;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding:20px 30px 20px 30px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.appnexus {
+    margin-top: -20px;
+    background-color: #b5bb13;
+}
+
+.google {
+    margin-top: 40px;
+    background-color: #e24e42;
+}
+
+.bbg {
+    margin-top: 100px;
+    background-color: #eb6e80;
+    margin-bottom: 0px;
+}
+
+.detail-head {
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 15px;
+    font-color: #fff !important;
+}
+
+.detail-date  {
+    font-style: italic;
+    font-size: 16px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #fff;
+    padding: 0px 5px;
+    color: #000;
+    /* margin: 5px; */
+    border-radius: 3px;
+}
+
+.detail-desc {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
